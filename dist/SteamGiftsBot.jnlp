@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SteamGiftsBot.jnlp">
+  <information>
+    <title>SteamGiftsBot</title>
+    <vendor>Vlastee</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SteamGiftsBot.jar" size="958881" download="eager" />
+    <jar href="lib\commons-codec-1.10.jar" size="284184" download="eager" />
+    <jar href="lib\commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="lib\fluent-hc-4.5.6.jar" size="31528" download="eager" />
+    <jar href="lib\httpclient-4.5.6.jar" size="767140" download="eager" />
+    <jar href="lib\httpclient-cache-4.5.6.jar" size="161574" download="eager" />
+    <jar href="lib\httpclient-win-4.5.6.jar" size="17837" download="eager" />
+    <jar href="lib\httpcore-4.4.10.jar" size="326356" download="eager" />
+    <jar href="lib\httpmime-4.5.6.jar" size="41794" download="eager" />
+    <jar href="lib\jna-4.4.0.jar" size="1091208" download="eager" />
+    <jar href="lib\jna-platform-4.4.0.jar" size="2281814" download="eager" />
+    <jar href="lib\jsoup-1.11.3.jar" size="395748" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="SteamGiftsBot" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="steamgiftsbot.SteamGiftsBot"  name="SteamGiftsBot" />
+  <update check="always"/>
+</jnlp>
